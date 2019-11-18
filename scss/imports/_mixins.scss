@@ -1,0 +1,69 @@
+ 
+@mixin box-sizing( $type: border-box ) {
+    -webkit-box-sizing: $type;
+       -moz-box-sizing: $type;
+         -o-box-sizing: $type;
+        -ms-box-sizing: $type;
+            box-sizing: $type;
+}
+
+@mixin border-radius( $px: 5px ) {
+    -webkit-border-radius: $px;
+       -moz-border-radius: $px;
+         -o-border-radius: $px;
+        -ms-border-radius: $px;
+            border-radius: $px;
+}
+
+@mixin box-shadow( $x1, $y1, $br1, $sr1, $clr1 ) {
+    -webkit-box-shadow: $x1 $y1 $br1 $sr1 $clr1;
+       -moz-box-shadow: $x1 $y1 $br1 $sr1 $clr1;
+         -o-box-shadow: $x1 $y1 $br1 $sr1 $clr1;
+        -ms-box-shadow: $x1 $y1 $br1 $sr1 $clr1;
+            box-shadow: $x1 $y1 $br1 $sr1 $clr1;
+}
+
+ 
+
+@mixin translate($x,$y){
+	transform:translate($x,$y);
+	-webkit-transform:translate($x,$y);
+	-o-transform:translate($x,$y);
+	-moz-transform:translate($x,$y);
+	-ms-transform:translate($x,$y);
+}
+@mixin scale($x,$y){
+	/*@include scale(ease, All, 1s);*/
+	transform:scale($x,$y);
+	-webkit-transform:scale($x,$y);
+	-o-transform:scale($x,$y);
+	-moz-transform:scale($x,$y);
+	-ms-transform:scale($x,$y);
+}
+@mixin transition($arg...){
+	/*@include transition(ease, All, 1s);*/
+	transition: $arg;
+	-webkit-transition: $arg;
+	-moz-transition: $arg;
+	-ms-transition: $arg;
+	-o-transition: $arg;
+}
+
+  
+@mixin rotateY($val){
+	/*@include rotateY(180deg);*/
+	transform: rotateY($val);
+	-webkit-transform: rotateY($val);
+	-moz-transform: rotateY($val);
+	-ms-transform: rotateY($val);
+	-o-transform: rotateY($val);
+}
+@mixin rotate($val){
+	/*@include rotate(180deg);*/ 
+	transform: rotate($val);
+	-webkit-transform: rotate($val);
+	-moz-transform: rotate($val);
+	-ms-transform: rotate($val);
+	-o-transform: rotate($val);
+}
+ 

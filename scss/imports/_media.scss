@@ -1,0 +1,95 @@
+@media only screen and (max-width:1024px) {
+
+header .nevigation{width: 60%; margin-left: 15%;}
+section.journal li{width: 31%;}
+footer .footerBox{width: 43%;float: left;margin-right: 50px;min-height: 260px;}
+section.journal .journalAbout aside{width: 100%;float: left;margin-right: 30px;margin-bottom: 20px;}
+section.journal .journalAbout aside .text { float: left;width: 70%; margin-bottom: 20px;}
+section.service article{width: 30.5%;}
+}
+  
+ 
+@media only screen and (max-width:980px) {
+section.service article { width: 30%; }
+ header .nevigation {  width: 62%; margin-left: 10%; }
+ }
+ 
+ 
+
+
+@media only screen and (max-width:768px) {
+section.journal .journalAbout aside .text{width: 63%;}
+footer .footerBox{width: 41%; }
+ header .menu ,  header .menu{ width: 100%; margin-right: 0px; display: none; }
+ header #nav-icon3{ display: block; } 
+ header .menu {transition:none; }
+ header .menu .nevigation{ width: 100%; border-right: 0;margin-left: 0px; }
+ header .menu .nevigation nav ul li{width: 100%; padding: 15px; text-align: center; border-bottom: 1px solid #fff; }
+ header{background: rgba(0, 0, 0, 0.5); }
+ header .socialIcon {  float: left;  width: 100%; margin-left: 12px;  text-align: center; display: inline-table; }
+ .socialIcon ul { text-align: center; float: none; display: inline-block; width: 113px;  margin-top: 13px; }
+h4{    font-size: 1.5rem;}
+section.journal li{    min-height: 468px;}
+section.service h3 {
+    margin: 27px 0 0px 0;
+}
+}
+
+@media only screen and (max-width:732px) {
+     h3::before, h3::after {     top: 198px; }
+}
+
+@media only screen and (max-width:640px) {
+section.journal li { width: 100%;  margin-bottom: 20px; }
+section.service article {  width: 100%; }
+section.journal .journalAbout aside figure {  float: none; text-align: center;  display: inline-block; margin-bottom: 10px; }
+section.journal .journalAbout aside .text {  width: 100%; }
+section.journal .journalAbout aside {  display: inline-table; text-align: center; }
+.serviceDetails p{text-align: left;}
+footer .footerBox {   width: 100%; margin-right: 0;  min-height: auto; margin-bottom: 20px; }
+header{padding: 15px 0;}
+h1 {   font-size: 4.5rem; }
+section{padding: 50px 0;}
+ h3::before, h3::after {  width: 90px; top: 159px; }
+ section.journal .journalAbout{margin-top: 0px; padding: 50px 0;}
+}
+
+@media only screen and (max-width:568px) {
+h3::before, h3::after { width: 90px;  top: 222px; }
+}
+
+@media only screen and (max-width:480px) {
+section.journal .journalAbout aside article .serviceDetails{ width: 80%; }
+.title { max-width: 100%;}
+h3::before , h3::after{width: 55px; top: 223px;}
+h1 {font-size: 3.5rem;}
+section.banner .nameInfo span{  font-size: 2rem; }
+h2{font-size: 2.5rem;}
+section.journal .journalAbout aside h3:before{width: 70px;}
+}
+
+@media only screen and (max-width:414px) {
+.service h3::before, .service h3::after { width: 45px; top: 168px; }
+}
+
+@media only screen and (max-width:360px) {
+section.journal .journalAbout aside article .serviceDetails {  width: 75%; }
+ h1 {  font-size: 3rem; }
+h3::before, h3::after {
+    width: 40px;
+    top: 205px;
+}
+.title { width: 94%;}
+
+}
+@media only screen and (max-width:320px) {
+
+h3::before, h3::after {
+    width: 30px;
+    top: 238px;
+}
+.service h3::before, .service h3::after {
+    width: 27px;
+    top: 201px;
+}
+}

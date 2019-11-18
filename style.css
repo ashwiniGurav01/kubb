@@ -1,0 +1,142 @@
+/* Reset Start */
+/* line 2, D:/IRMA/production/scss/imports/_reset.scss */
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+/* line 3, D:/IRMA/production/scss/imports/_reset.scss */
+body {
+  background: #65a4d7;
+  background-color: #65a4d7 !important;
+  font-family: Ubuntu_R_New, arial, sans-serif, tahoma;
+  color: #434343;
+  font-size: inherit;
+  min-width: auto;
+  -webkit-font-smoothing: antialiased;
+  -webkit-print-color-adjust: exact;
+}
+
+/***** Global Classes and declarations *****/
+/* line 5, D:/IRMA/production/scss/imports/_reset.scss */
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, input {
+  list-style: none;
+}
+
+/* line 6, D:/IRMA/production/scss/imports/_reset.scss */
+* {
+  outline: none;
+  padding: 0;
+  border: none;
+  margin: 0;
+  -webkit-text-size-adjust: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* line 7, D:/IRMA/production/scss/imports/_reset.scss */
+a {
+  text-decoration: none;
+  outline: none;
+  color: #333;
+}
+
+/* line 8, D:/IRMA/production/scss/imports/_reset.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 9, D:/IRMA/production/scss/imports/_reset.scss */
+a.selected {
+  color: #333;
+  cursor: default;
+}
+
+/* line 10, D:/IRMA/production/scss/imports/_reset.scss */
+a:hover.selected {
+  text-decoration: none;
+}
+
+/* line 11, D:/IRMA/production/scss/imports/_reset.scss */
+img {
+  border: none;
+}
+
+/* line 12, D:/IRMA/production/scss/imports/_reset.scss */
+p {
+  color: #333;
+}
+
+/* line 13, D:/IRMA/production/scss/imports/_reset.scss */
+p, input {
+  font-size: 1.3em;
+}
+
+/* line 14, D:/IRMA/production/scss/imports/_reset.scss */
+h1, h2, h3, h4, h5, h6, pre {
+  font-weight: normal;
+  margin: 0;
+}
+
+/* line 15, D:/IRMA/production/scss/imports/_reset.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* line 16, D:/IRMA/production/scss/imports/_reset.scss */
+.clearfix {
+  display: block;
+}
+
+/* line 17, D:/IRMA/production/scss/imports/_reset.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 18, D:/IRMA/production/scss/imports/_reset.scss */
+.clear {
+  clear: both;
+  font-size: 1%;
+  height: 0;
+  line-height: 0;
+  display: block;
+  width: 0;
+}
+
+/* line 19, D:/IRMA/production/scss/imports/_reset.scss */
+html[xmlns] .clearfix {
+  display: block;
+}
+
+/* line 20, D:/IRMA/production/scss/imports/_reset.scss */
+html {
+  overflow-x: hidden;
+}
+
+/* line 21, D:/IRMA/production/scss/imports/_reset.scss */
+.mainView {  background: #65a4d7;}
+
+/* line 22, D:/IRMA/production/scss/imports/_reset.scss */
+.fl {float:left;}
+
+/* line 23, D:/IRMA/production/scss/imports/_reset.scss */
+.hidden {display: none;}
+
+/* line 24, D:/IRMA/production/scss/imports/_reset.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 25, D:/IRMA/production/scss/imports/_reset.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 26, D:/IRMA/production/scss/imports/_reset.scss */
+img {  border: none;}
+

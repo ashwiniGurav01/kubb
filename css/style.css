@@ -1,0 +1,1085 @@
+/* Reset Start */
+/* line 2, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+* {
+  outline: none;
+  padding: 0;
+  border: none;
+  margin: 0;
+  -webkit-text-size-adjust: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* line 3, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 4, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: #232323;
+}
+
+/* line 5, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+a:hover {
+  color: #28b8d8;
+  text-decoration: none;
+}
+
+/* line 6, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+img {
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'roboto_slabbold';
+  src: url("../fonts/robotoslab-bold-webfont.woff2") format("woff2"), url("../fonts/robotoslab-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotobold_condensed';
+  src: url("../fonts/roboto-boldcondensed-webfont.woff2") format("woff2"), url("../fonts/roboto-boldcondensed-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto_slablight';
+  src: url("../fonts/robotoslab-light-webfont.woff2") format("woff2"), url("../fonts/robotoslab-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url("../fonts/../fonts/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 26, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+.main {
+  max-width: 1170px;
+  margin: auto;
+  width: 90%;
+}
+
+/* line 27, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+section {
+  width: 100%;
+  float: left;
+  padding: 70px 0;
+}
+
+/* line 28, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+p {
+  font-size: 1.4rem;
+  font-family: 'robotoregular';
+  color: #666666;
+  width: 100%;
+  float: left;
+  line-height: 22px;
+}
+
+/* line 29, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+h1 {
+  font-family: 'robotobold_condensed';
+  font-size: 5rem;
+  color: #ffffff;
+}
+
+/* line 30, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+h2 {
+  color: #444444;
+  font-size: 3rem;
+  width: 100%;
+  font-family: 'roboto_slablight';
+  float: left;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+/* line 31, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+h3 {
+  color: #444444;
+  font-size: 1.8rem;
+  float: left;
+  text-align: center;
+  width: 100%;
+  font-family: 'robotobold_condensed';
+  font-weight: normal;
+  margin: 0px 0 30px 0;
+  text-transform: uppercase;
+}
+
+/* line 32, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+h3:after {
+  position: absolute;
+  right: 0;
+  content: "";
+  height: 2px;
+  border-top: 1px double #d9d9d9;
+  top: 159px;
+  width: 100px;
+  display: block;
+  border-bottom: 1px double #d9d9d9;
+}
+
+/* line 33, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+h3:before {
+  position: absolute;
+  left: 0;
+  content: "";
+  height: 2px;
+  border-bottom: 1px double #d9d9d9;
+  border-top: 1px double #d9d9d9;
+  top: 159px;
+  width: 100px;
+  display: block;
+}
+
+/* line 35, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+h4 {
+  color: #444444;
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: 'roboto_slabbold';
+  margin: 0px 0 6px 0;
+}
+
+/* line 36, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+h5 {
+  font-family: 'robotobold_condensed';
+  font-size: 1.6rem;
+  float: left;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #f0f0f0;
+}
+
+/* line 37, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+.banner .owl-prev {
+  text-indent: -31px;
+  overflow: hidden;
+  overflow: hidden;
+  text-indent: -31px;
+  top: 47%;
+  position: absolute;
+  background: red;
+  left: 10px;
+  width: 45px;
+  height: 45px;
+  background: url(../images/sprite1.png) -52px -274px no-repeat;
+}
+
+/* line 38, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+.banner .owl-next {
+  text-indent: -31px;
+  overflow: hidden;
+  right: 10px;
+  top: 47%;
+  position: absolute;
+  background: red;
+  width: 45px;
+  height: 45px;
+  background: url(../images/sprite1.png) -52px -323px no-repeat;
+}
+
+/* line 44, D:/Ashwini Kanse/projects/kubb/scss/imports/_reset.scss */
+.title {
+  margin: 0 auto;
+  max-width: 430px;
+  width: 85%;
+  position: relative;
+}
+
+/* line 1, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+#wrapper {
+  width: 100%;
+  float: left;
+}
+
+/* line 5, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header {
+  padding: 30px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  background: rgba(0, 0, 0, 0.3);
+}
+/* line 12, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .close {
+  float: right;
+  font-size: 1.4rem;
+  color: white;
+  font-family: robotobold_condensed;
+  display: none;
+}
+/* line 19, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header #nav-icon3 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin: 0px auto;
+  /*@include rotate(180deg);*/
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  /*@include transition(ease, All, 1s);*/
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  cursor: pointer;
+  float: right;
+  display: none;
+}
+/* line 30, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header #nav-icon3 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #000;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  /*@include rotate(180deg);*/
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  /*@include transition(ease, All, 1s);*/
+  transition: 0.25s all ease;
+  -webkit-transition: 0.25s all ease;
+  -moz-transition: 0.25s all ease;
+  -ms-transition: 0.25s all ease;
+  -o-transition: 0.25s all ease;
+}
+/* line 42, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header #nav-icon3 span:nth-child(1) {
+  top: 6px;
+}
+/* line 46, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header #nav-icon3 span:nth-child(2),
+header #nav-icon3 span:nth-child(3) {
+  top: 18px;
+}
+/* line 49, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header #nav-icon3 span:nth-child(4) {
+  top: 30px;
+}
+/* line 52, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header #nav-icon3.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+/* line 57, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header #nav-icon3.open span:nth-child(2) {
+  /*@include rotate(180deg);*/
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+/* line 60, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header #nav-icon3.open span:nth-child(3) {
+  /*@include rotate(180deg);*/
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+/* line 63, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header #nav-icon3.open span:nth-child(4) {
+  top: 10px;
+  width: 0%;
+  left: 50%;
+}
+/* line 68, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .logo {
+  float: left;
+}
+/* line 71, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .nevigation {
+  float: left;
+  width: 47%;
+  margin-left: 390px;
+  border-right: 1px solid #fff;
+}
+/* line 76, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .nevigation nav ul li {
+  float: left;
+  margin-right: 40px;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-family: robotobold_condensed;
+}
+/* line 82, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .nevigation nav ul li a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+/* line 85, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .nevigation nav ul li a:hover {
+  color: #28b8d8;
+  -webkit-transition: 1s all ease;
+}
+/* line 92, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .socialIcon {
+  float: left;
+  width: 114px;
+  margin-left: 12px;
+}
+/* line 96, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .socialIcon ul li a {
+  width: 13px;
+  height: 20px;
+  display: block;
+  margin-right: 15px;
+  float: left;
+  -webkit-transition: 1s all ease;
+  background: url(../images/sprite1.png) no-repeat;
+}
+/* line 104, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .socialIcon ul li a.faceBook {
+  background-position: -6px -149px;
+}
+/* line 106, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .socialIcon ul li a.faceBook:hover {
+  background-position: -6px -174px;
+}
+/* line 110, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .socialIcon ul li a.twitter {
+  background-position: -6px -205px;
+}
+/* line 112, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .socialIcon ul li a.twitter:hover {
+  background-position: -6px -234px;
+}
+/* line 116, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .socialIcon ul li a.blog {
+  background-position: -6px -259px;
+}
+/* line 118, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .socialIcon ul li a.blog:hover {
+  background-position: -6px -290px;
+}
+/* line 122, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .socialIcon ul li a.print {
+  background-position: -6px -327px;
+}
+/* line 124, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+header .socialIcon ul li a.print:hover {
+  background-position: -6px -357px;
+}
+
+/* line 131, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.banner {
+  position: relative;
+  padding: 0;
+}
+/* line 134, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.banner .nameInfo {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: 2;
+  color: white;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  /*@include transition(ease, All, 1s);*/
+  transition: 3s all ease;
+  -webkit-transition: 3s all ease;
+  -moz-transition: 3s all ease;
+  -ms-transition: 3s all ease;
+  -o-transition: 3s all ease;
+  transform: translate(-50%);
+}
+/* line 145, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.banner .nameInfo span {
+  font-family: roboto_slablight;
+  font-size: 4rem;
+}
+/* line 149, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.banner .nameInfo p {
+  color: white;
+}
+
+/* line 154, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.service {
+  background: #f9f9f9;
+}
+/* line 156, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.service p {
+  text-align: center;
+}
+/* line 159, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.service h3 {
+  margin: 65px 0 0px 0;
+}
+/* line 162, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.service h4 {
+  margin: 20px 0 15px 0;
+}
+/* line 165, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.service article {
+  width: 31.5%;
+  float: left;
+  margin-right: 30px;
+  padding: 20px 15px;
+  border: 1px solid #e3e3e3;
+  margin-top: 20px;
+}
+/* line 172, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.service article:last-child {
+  margin-right: 0px;
+}
+
+/* line 177, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.instagram {
+  background: #2c2c2c;
+}
+/* line 179, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.instagram h3 {
+  color: #d5d5d5;
+}
+/* line 181, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.instagram h3:after {
+  top: 9px;
+}
+/* line 184, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.instagram h3:before {
+  top: 9px;
+}
+/* line 188, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.instagram .shotOuter {
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+/* line 192, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.instagram .shotOuter .item {
+  margin-right: 10px;
+  overflow: hidden;
+}
+/* line 195, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.instagram .shotOuter .item img {
+  display: block;
+  width: 100%;
+  /*@include transition(ease, All, 1s);*/
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+}
+/* line 199, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.instagram .shotOuter .item img:hover {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+}
+/* line 206, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.instagram .button {
+  width: 180px;
+  height: 48px;
+  margin: auto;
+}
+/* line 210, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.instagram .button a {
+  height: 48px;
+  color: #a6a6a6;
+  border: 1px solid #a6a6a6;
+  float: left;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-family: robotoregular;
+  text-decoration: none;
+  padding-left: 22px;
+  background: url(../images/sprite.png) -1px -652px no-repeat;
+  padding: 0 25px 0 36px;
+}
+/* line 224, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.instagram .button a:hover {
+  border: 1px solid #28b8d8;
+  color: #28b8d8;
+}
+
+/* line 231, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal {
+  background: #f9f9f9;
+}
+/* line 234, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal h3:after {
+  top: 9px;
+  right: 15px;
+}
+/* line 238, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal h3:before {
+  top: 9px;
+  left: 15px;
+}
+/* line 243, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal li {
+  float: left;
+  width: 32%;
+  border: 1px solid #ccc;
+  margin: 0 20px 0 0;
+  padding: 25px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 468px;
+}
+/* line 253, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal li:last-child {
+  margin-right: 0px;
+}
+/* line 256, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal li h4 {
+  padding: 0 25px;
+}
+/* line 259, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal li p {
+  padding: 20px 16px;
+  text-align: left;
+  line-height: 24px;
+}
+/* line 264, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal li span {
+  color: #999999;
+  font-size: 1.2rem;
+  font-family: robotoregular;
+  margin: 5px 0 22px 0;
+  float: left;
+  width: 100%;
+  padding: 0 5px;
+}
+/* line 273, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal li .readmore {
+  width: 100%;
+  float: left;
+  padding: 0 20px;
+}
+/* line 277, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal li .readmore .continueRead {
+  float: left;
+  color: #999999;
+  border-bottom: 1px solid #26b5e9;
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-family: robotoregular;
+}
+/* line 285, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal li .readmore .continueRead:hover {
+  color: #26b5e9;
+}
+/* line 289, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal li .readmore .like {
+  float: right;
+  color: #999999;
+  font-size: 1.1rem;
+  background: url(../images/sprite1.png) -59px -124px no-repeat;
+  padding: 0 0 0 30px;
+}
+/* line 297, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal li .info.slide {
+  bottom: 0px;
+}
+/* line 300, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal li .info {
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  bottom: -600px;
+  opacity: 0.9;
+  /*@include transition(ease, All, 1s);*/
+  transition: 2s all ease;
+  -webkit-transition: 2s all ease;
+  -moz-transition: 2s all ease;
+  -ms-transition: 2s all ease;
+  -o-transition: 2s all ease;
+  color: #fff;
+  padding: 15px;
+}
+/* line 310, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal li .info .closeInfo {
+  text-transform: uppercase;
+  text-align: right;
+  padding: 15px 15px 0 15px;
+  font-size: 1.4rem;
+  color: #28b8d8;
+  text-decoration: none;
+  font-family: robotobold_condensed;
+}
+/* line 322, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout {
+  padding-bottom: 0;
+  margin-top: 70px;
+}
+/* line 326, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside {
+  width: 48%;
+  float: left;
+  margin-right: 30px;
+}
+/* line 330, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside:last-child {
+  margin-right: 0px;
+}
+/* line 332, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside:last-child h3:before {
+  left: 110px;
+}
+/* line 336, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside h3 {
+  margin: 0 0 28px 0;
+  text-align: left;
+}
+/* line 339, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside h3:before {
+  top: 16px;
+  left: 150px;
+  position: relative;
+}
+/* line 345, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside figure {
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+}
+/* line 350, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside .text {
+  float: right;
+  width: 330px;
+}
+/* line 353, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside .text p {
+  text-align: left;
+}
+/* line 356, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside .text .heading {
+  font-size: 1.8rem;
+  color: #666666;
+  font-family: roboto_slablight;
+  margin-bottom: 22px;
+  line-height: 29px;
+}
+/* line 364, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside article {
+  width: 100%;
+  float: left;
+  margin-bottom: 25px;
+}
+/* line 368, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside article span {
+  width: 45px;
+  background: url(../images/sprite1.png) left top no-repeat;
+  margin-right: 20px;
+  float: left;
+  height: 45px;
+}
+/* line 376, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside article:nth-child(3) span {
+  background-position: 0 -50px;
+}
+/* line 381, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside article:nth-child(4) span {
+  background-position: 0 -96px;
+}
+/* line 385, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside article .serviceDetails {
+  float: left;
+  width: 85%;
+}
+/* line 388, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+section.journal .journalAbout aside article .serviceDetails h4 {
+  margin: 0px 0 7px 0;
+  text-align: left;
+}
+
+/* line 397, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+footer {
+  background-color: #373737;
+  width: 100%;
+  float: left;
+  padding: 50px 0 0 0;
+}
+/* line 402, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+footer .footerBox {
+  width: 240px;
+  float: left;
+  margin-right: 50px;
+}
+/* line 406, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+footer .footerBox ul {
+  color: #cacaca;
+  font-family: robotoregular;
+}
+/* line 410, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+footer .footerBox ul li {
+  font-size: 1.4rem;
+  margin: 0 0 5px 0;
+  background: url(../images/sprite1.png) -71px -13px no-repeat;
+  padding-left: 25px;
+}
+/* line 415, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+footer .footerBox ul li a {
+  color: #cacaca;
+}
+/* line 417, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+footer .footerBox ul li a:hover {
+  color: #28b8d8;
+}
+/* line 422, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+footer .footerBox ul li:nth-child(2) {
+  background-position: -74px -51px;
+}
+/* line 425, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+footer .footerBox ul li:nth-child(3) {
+  background-position: -69px -92px;
+}
+/* line 429, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+footer .footerBox H5 {
+  margin-bottom: 20px;
+}
+/* line 432, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+footer .footerBox p {
+  color: #cacaca;
+  margin-bottom: 25px;
+}
+/* line 435, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+footer .footerBox p span {
+  color: #929292;
+  font-size: 12px;
+  font-family: robotoregular;
+}
+/* line 443, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+footer .copyText {
+  background-color: #333333;
+  padding: 40px 0;
+}
+/* line 447, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+footer .copyText p {
+  color: #cacaca;
+}
+
+/* line 452, D:/Ashwini Kanse/projects/kubb/scss/imports/_main.scss */
+.wd100, section.instagram .shotOuter, section.journal li .info, section.journal li .info .closeInfo, section.journal .journalAbout, footer .footerBox ul, footer .footerBox p span, footer .copyText {
+  float: left;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 3, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  header .nevigation {
+    width: 60%;
+    margin-left: 15%;
+  }
+
+  /* line 4, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.journal li {
+    width: 31%;
+  }
+
+  /* line 5, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  footer .footerBox {
+    width: 43%;
+    float: left;
+    margin-right: 50px;
+    min-height: 260px;
+  }
+
+  /* line 6, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.journal .journalAbout aside {
+    width: 100%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+
+  /* line 7, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.journal .journalAbout aside .text {
+    float: left;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  /* line 8, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.service article {
+    width: 30.5%;
+  }
+}
+@media only screen and (max-width: 980px) {
+  /* line 13, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.service article {
+    width: 30%;
+  }
+
+  /* line 14, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  header .nevigation {
+    width: 62%;
+    margin-left: 10%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 21, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.journal .journalAbout aside .text {
+    width: 63%;
+  }
+
+  /* line 22, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  footer .footerBox {
+    width: 41%;
+  }
+
+  /* line 23, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  header .menu, header .menu {
+    width: 100%;
+    margin-right: 0px;
+    display: none;
+  }
+
+  /* line 24, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  header #nav-icon3 {
+    display: block;
+  }
+
+  /* line 25, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  header .menu {
+    transition: none;
+  }
+
+  /* line 26, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  header .menu .nevigation {
+    width: 100%;
+    border-right: 0;
+    margin-left: 0px;
+  }
+
+  /* line 27, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  header .menu .nevigation nav ul li {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+  }
+
+  /* line 28, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  header {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  /* line 29, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  header .socialIcon {
+    float: left;
+    width: 100%;
+    margin-left: 12px;
+    text-align: center;
+    display: inline-table;
+  }
+
+  /* line 30, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  .socialIcon ul {
+    text-align: center;
+    float: none;
+    display: inline-block;
+    width: 113px;
+    margin-top: 13px;
+  }
+
+  /* line 31, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  /* line 32, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.journal li {
+    min-height: 468px;
+  }
+
+  /* line 33, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.service h3 {
+    margin: 27px 0 0px 0;
+  }
+}
+@media only screen and (max-width: 732px) {
+  /* line 39, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  h3::before, h3::after {
+    top: 198px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  /* line 43, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.journal li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* line 44, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.service article {
+    width: 100%;
+  }
+
+  /* line 45, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.journal .journalAbout aside figure {
+    float: none;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  /* line 46, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.journal .journalAbout aside .text {
+    width: 100%;
+  }
+
+  /* line 47, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.journal .journalAbout aside {
+    display: inline-table;
+    text-align: center;
+  }
+
+  /* line 48, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  .serviceDetails p {
+    text-align: left;
+  }
+
+  /* line 49, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  footer .footerBox {
+    width: 100%;
+    margin-right: 0;
+    min-height: auto;
+    margin-bottom: 20px;
+  }
+
+  /* line 50, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  header {
+    padding: 15px 0;
+  }
+
+  /* line 51, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  /* line 52, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section {
+    padding: 50px 0;
+  }
+
+  /* line 53, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  h3::before, h3::after {
+    width: 90px;
+    top: 159px;
+  }
+
+  /* line 54, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.journal .journalAbout {
+    margin-top: 0px;
+    padding: 50px 0;
+  }
+}
+@media only screen and (max-width: 568px) {
+  /* line 58, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  h3::before, h3::after {
+    width: 90px;
+    top: 222px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 62, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.journal .journalAbout aside article .serviceDetails {
+    width: 80%;
+  }
+
+  /* line 63, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  .title {
+    max-width: 100%;
+  }
+
+  /* line 64, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  h3::before, h3::after {
+    width: 55px;
+    top: 223px;
+  }
+
+  /* line 65, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  /* line 66, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.banner .nameInfo span {
+    font-size: 2rem;
+  }
+
+  /* line 67, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  /* line 68, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.journal .journalAbout aside h3:before {
+    width: 70px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  /* line 72, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  .service h3::before, .service h3::after {
+    width: 45px;
+    top: 168px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  /* line 76, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  section.journal .journalAbout aside article .serviceDetails {
+    width: 75%;
+  }
+
+  /* line 77, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  h1 {
+    font-size: 3rem;
+  }
+
+  /* line 78, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  h3::before, h3::after {
+    width: 40px;
+    top: 205px;
+  }
+
+  /* line 82, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  .title {
+    width: 94%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 87, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  h3::before, h3::after {
+    width: 30px;
+    top: 238px;
+  }
+
+  /* line 91, D:/Ashwini Kanse/projects/kubb/scss/imports/_media.scss */
+  .service h3::before, .service h3::after {
+    width: 27px;
+    top: 201px;
+  }
+}
